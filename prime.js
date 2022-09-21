@@ -1,14 +1,14 @@
-function prime(num){
+function prime(number){
     let remainder=0;
-    for(let i=2;i<=num;i++){
-        if(num%i==0){
+    for(let i=2;i<=number;i++){
+        if(number%i==0){
             remainder++;
         }
     }
     if(remainder==1){
-        return "true";
+        return "prime";
     }else{
-        return "false";
+        return "not prime";
     }
 }
 console.log(prime(13));
