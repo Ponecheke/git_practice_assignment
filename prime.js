@@ -5,7 +5,7 @@ function prime(num){
             remainder++;
         }
     }
-    if(remainder==2){
+    if(remainder==1){
         return "true";
     }else{
         return "false";
